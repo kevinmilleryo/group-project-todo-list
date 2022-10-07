@@ -5,6 +5,14 @@ const TodoSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  priority: {
+    type: String,
+    enum: ['none','low','medium','high']
+  },
+  category: {
+    type: String,
+    enum: ['chores','work','appointments', 'groceries']
+  },
   completed: {
     type: Boolean,
     required: true,

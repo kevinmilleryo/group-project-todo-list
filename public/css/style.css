@@ -1,10 +1,230 @@
-h1{
-    color: red;
+body{
+    text-align: center;
+    text-transform: capitalize;
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+    margin: 0 auto;
 }
+
+ul {
+    line-height: 1;
+    list-style-position: inside;
+    justify-content: start;
+}
+
+li{
+
+    border-bottom:1px dotted black; 
+}
+
+h1{
+    color: black;
+    font-weight: 700;
+}
+
+h2{
+    text-transform: lowercase;
+    margin-bottom: 3%;
+}
+
+h2::first-letter{
+    text-transform: uppercase;
+}
+
+.completed, .not, .high, .medium, .low {
+    margin-right: 2%
+}
+
 .completed{
     text-decoration: line-through;
     color: gray;
 }
+
 .not{
     text-decoration: underline;
+}
+
+.high{
+  color:red;
+}
+
+.medium{
+  color: gold;
+}
+
+.low{
+  color:green;
+}
+.none{
+  display:none
+}
+
+form * {
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+form label, form input, form select {
+    font-weight: 600;
+}
+
+div  {
+    margin-top: 5%;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 5%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 5%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.index a{
+    width: 20%;
+}
+
+a {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;    
+}
+
+a:hover, a:active {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+}
+  
+.container.space-evenly{
+    padding: 0;
+    margin: 0 auto;
+    display:inline-block;
+    justify-content: center;
+}
+
+.container.space-evenly li span{
+    padding: 5px;
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.box{
+    width: 40%;
+    top: 20%;
+    left: 30%;
+    background: white;
+    border-radius: 10px;
+    min-width: 450px;
+/*     position: absolute; */
+    min-height: 100px;
+    margin: 0 auto;
+}
+
+.newtask input{
+    width: 30%;
+    height: 30px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+.tasks{
+    border-radius: 10px;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contain{
+        width: 40%;
+        top: 20%;
+        left: 30%;
+        background: white;
+        border-radius: 10px;
+        min-width: 300px;
+/*         position: absolute; */
+        min-height: 100px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .contain{
+        width: 40%;
+        top: 20%;
+        left: 30%;
+        background: white;
+        border-radius: 10px;
+        min-width: 350px;
+/*         position: absolute; */
+        min-height: 100px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .contain{
+        width: 40%;
+        top: 20%;
+        left: 30%;
+        background: white;
+        border-radius: 10px;
+        min-width: 550px;
+/*         position: absolute; */
+        min-height: 100px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .contain{
+        width: 40%;
+        top: 20%;
+        left: 30%;
+        background: white;
+        border-radius: 10px;
+        min-width: 650px;
+/*         position: absolute; */
+        min-height: 100px;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .contain{
+        width: 40%;
+        top: 20%;
+        left: 30%;
+        background: white;
+        border-radius: 10px;
+        min-width: 750px;
+/*         position: absolute; */
+        min-height: 100px;
+    }
 }
