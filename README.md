@@ -2,7 +2,7 @@ Beer-Helper
 
 Todo list app where users can add todos, categorize and prioritize them.
 
-Link to project: https://beer-sales-helper.herokuapp.com/
+Link to project: https://group-project-todo-list.herokuapp.com/
 
 Demo User
 email: tester1234@gmail.com
