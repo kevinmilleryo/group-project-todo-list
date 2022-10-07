@@ -1,44 +1,21 @@
-# Introduction
+Beer-Helper
 
-A Simple ToDo App is built using the MVC Architecture, we have also implemented "authorization" so folx can sign up, customize & personalize the app 
+Todo list app where users can add todos, categorize and prioritize them.
 
---
+Link to project: https://beer-sales-helper.herokuapp.com/
 
-> Be sure to add that lovely star 😀 and fork it for your own copy
+Demo User
+email: tester1234@gmail.com
+password: tester1234
 
----
+![Screenshot](public/imgs/todolistscreenshot.png)
 
-# Objectives
+How It's Made:
+Tech used: HTML, CSS, JavaScript, Bootstrap, Node.js, Express.js, MongoDB
 
-- It's a beginner level app created to understand how MVC concept and logins are added
+Optimizations: 
 
----
-
-# Who is this for? 
-
-- It's for beginners & intermediates with little more experience, to help understand the various aspects of building a node app with some complex features
-
----
-
-# Packages/Dependencies used 
-
-bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mongodb, mongoose, morgan, nodemon, passport, passport-local, validator
-
----
-
-# Install all the dependencies or node packages used for development via Terminal
-
-`npm install` 
-
----
-
-# Things to add
-
-- Create a `.env` file and add the following as `key: value` 
-  - PORT: 2121 (can be any port example: 3000) 
-  - DB_STRING: `your database URI` 
- ---
- 
- Have fun testing and improving it! 😎
+Lessons Learned:
+How to add new items into schema.  Using bootstrap to style a page.  Adding colors to classes via css.  
 
 
